@@ -46,12 +46,14 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 form{
     width: 500px;
     height: 100vh;
     padding-top: 80px;
-
+    border: 1px solid white;
+padding: 20px;
 }
 
 form .postReelStory {
@@ -59,6 +61,7 @@ form .postReelStory {
     height: 150px;
     display: flex;
     gap: 20px;
+    
 }
 form .postReelStory #create{
     width: 30%;
@@ -69,6 +72,11 @@ form .postReelStory #create{
     justify-content: center;
     gap: 10px;
     flex-direction: column;
+    
+}
+
+form .postReelStory input{
+    display: none   ;
 }
 
 form .postReelStory #create h1{
@@ -78,3 +86,44 @@ form .postReelStory #create i{
     font-size: 40px;
 }
 
+.details{
+    width: 400px;
+    height: 40vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+
+.details input{
+    width: 100%;
+    height: 15%;
+    outline: none;
+    padding-left: 10px;
+    color: black;
+
+}
+
+.btn{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aliceblue; */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2vw;
+}
+
+.btn button{
+    width: 5vw;
+    height: 5vh;
+    color: rgb(255, 248, 248);
+    border-radius: 0.5vw;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
